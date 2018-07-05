@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="location">
+        <item>null</item>
+        <item>도서관</item>
+        <item>병원</item>
+        <item>공원</item>
+        <item>경찰서</item>
+    </array>
+</resources>

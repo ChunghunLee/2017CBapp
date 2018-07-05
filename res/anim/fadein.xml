@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator = &quot;@android:anim/accelerate_interpolator&quot;
+    android:fromAlpha=&quot;0.0&quot;
+    android:toAlpha=&quot;1.0&quot;
+    android:duration=&quot;300&quot;/&gt; />

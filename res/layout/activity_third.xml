@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/colorWhite" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="1.0">
+    <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark" app:id="@id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010071">
+        <ImageView app:id="@+id/actionBarLogo" app:focusable="false" app:clickable="false" app:longClickable="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/title2" />
+    </android.support.v7.widget.Toolbar>
+    <ListView app:id="@+id/listView2" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x15401" app:layout_marginTop="30dp" />
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="30dp">
+        <ImageButton app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/imageButtonView_dial" app:background="@color/colorWhite" app:layout_width="UNKNOWN_DATA_0x8201" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_weight="1.0" app:srcCompat="@drawable/phonedialog" />
+        <ImageButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/imageButtonView_search" app:background="@color/colorWhite" app:layout_width="UNKNOWN_DATA_0x8201" app:layout_height="wrap_content" app:layout_marginRight="20dp" app:layout_weight="1.0" app:srcCompat="@drawable/searchingimg" />
+    </LinearLayout>
+</LinearLayout>

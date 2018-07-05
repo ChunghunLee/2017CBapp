@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="activity_navigation_drawer_drawer">res/menu/activity_navigation_drawer_drawer.xml</menu>
+    <menu name="blank_menu">res/menu/blank_menu.xml</menu>
+    <menu name="navigation_drawer">res/menu/navigation_drawer.xml</menu>
+    <menu name="question_menu">res/menu/question_menu.xml</menu>
+</resources>

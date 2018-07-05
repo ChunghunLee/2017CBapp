@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/drawer_layout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="wrap_content" app:weightSum="1.0">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark" app:id="@id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010071">
+            <ImageView app:id="@+id/actionBarLogo" app:focusable="false" app:clickable="false" app:longClickable="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/title2" />
+        </android.support.v7.widget.Toolbar>
+        <view app:id="@+id/view" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x12c01" app:layout_marginTop="30dp" class="android.support.v4.view.ViewPager" />
+        <ImageView app:id="@+id/imageView2" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4701" app:layout_marginBottom="30dp" app:srcCompat="@drawable/slide_img" />
+        <TextView app:id="@+id/tv_WeatherInfo" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:text="hello" />
+        <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageButton app:id="@+id/ButtonWeather" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" app:srcCompat="@drawable/weather_image" />
+            <ImageButton app:id="@+id/ButtonEmail" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" app:srcCompat="@drawable/ic_email" />
+            <ImageButton app:id="@+id/ButtonBack" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" app:srcCompat="@drawable/exit_image" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.NavigationView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/navigation_view" app:layout_width="wrap_content" app:layout_height="match_parent" app:menu="@menu/activity_navigation_drawer_drawer" app:headerLayout="@layout/nav_header_navigation_drawer">
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/footer_layout1" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x4401" app:srcCompat="@drawable/footer_layout" />
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

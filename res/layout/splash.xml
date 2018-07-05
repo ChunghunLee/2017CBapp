@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/colorload" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="1.0">
+    <ImageView app:id="@+id/imageView4" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x15e01" app:src="@drawable/firstloadingimg" app:layout_weight="0.32" />
+    <ImageView app:id="@+id/iv1" app:background="@color/colorload" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xf01" app:srcCompat="@color/colorload" />
+</LinearLayout>

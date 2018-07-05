@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#eeeeee" android:layout_width="UNKNOWN_DATA_0x16801" android:layout_height="UNKNOWN_DATA_0x16801" android:weightSum="1.0"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="#fff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#23bbea" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3501" android:text="어플 소개" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="#ffc000" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageView5" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/question_img" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:textSize="15sp" android:textColor="#23bbea" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:text="확인" android:onClick="mOnClose" />
+    </LinearLayout>
+</LinearLayout>

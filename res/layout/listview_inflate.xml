@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201"
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0">
+            <TextView app:textSize="20dp" app:textColor="@color/colorPrimaryDark" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/textView1" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="TextView" app:layout_weight="1.0" />
+            <TextView app:textSize="15dp" app:id="@+id/textView2" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="3dp" app:text="TextView" app:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageButton app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/imageButton" app:layout_width="wrap_content" app:layout_height="wrap_content" app:srcCompat="@drawable/places_ic_search" />
+    </LinearLayout>
+</LinearLayout>

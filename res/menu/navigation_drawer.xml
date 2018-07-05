@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_actionbar_search" app:id="@+id/action_settings" app:orderInCategory="100" app:title="@string/action_settings" app:showAsAction="ifRoom" />
+</menu>
